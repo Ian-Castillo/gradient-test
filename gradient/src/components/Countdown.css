@@ -1,0 +1,9 @@
+.countdown {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'URW Din Medium', sans-serif;
+  color: rgb(0, 0, 0);
+}

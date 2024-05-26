@@ -1,0 +1,95 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'URW Din Medium', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('./assets/Gradient.png')   ;
+
+}
+
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+
+.countdown {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'URW Din Medium', sans-serif;
+  color: black;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.cta-button {
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  cursor: pointer;
+  font-family: 'URW Din Medium', sans-serif;
+  text-transform: lowercase;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  text-decoration: underline;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.email-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(200, 120, 120);
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-family: 'URW Din Medium', sans-serif;
+  text-transform: lowercase;
+}
+
+.email-form button:hover {
+  text-decoration: underline;
+}
+
+.welcome-message {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
